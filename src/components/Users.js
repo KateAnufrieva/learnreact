@@ -1,24 +1,9 @@
 import React from "react"
 
 class Users extends React.Component {  //компонент
-   users = [
-    {
-        id: 1,
-        firstname: 'Боб',
-        lastname: 'Иванов',
-        bio: 'Строитель высшего ранга',
-        age: 40,
-        isHappy: true
-    },
-    {
-        id: 2,
-        firstname: 'Джон',
-        lastname: 'Дорл',
-        bio: 'Инженер',
-        age: 22,
-        isHappy: false
-    }
-   ]
+   constructor(props){
+    
+   }
     render(){
         if(this.users.length > 0)
     return(<div>
